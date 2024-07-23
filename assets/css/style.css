@@ -1,0 +1,42 @@
+.accordion-flush {
+    margin: 10%;
+    margin-top: 3%;
+    padding: 5%;
+}
+
+.copyright {
+    text-align: center;
+    text-transform: capitalize;
+    color: black;
+    text-emphasis: none;
+}
+
+body {
+    margin: 1%;
+    padding: 1%;
+    margin: 0%;
+}
+
+.navbar {
+    margin-bottom: 10px;
+}
+
+.col-8 {
+    overflow: scroll;
+}
+
+.col-3 {
+    position: static;
+}
+
+.row {
+    height: min-content
+}
+
+main {
+    display: inline-block;
+}
+
+footer {
+    background-color: white;
+}
