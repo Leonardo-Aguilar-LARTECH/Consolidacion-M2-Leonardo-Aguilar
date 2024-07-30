@@ -3,6 +3,10 @@ body {
     padding: 0px;
 }
 
+section {
+    text-align: center;
+}
+
 .navbar {
     margin-bottom: 10px;
 }
@@ -12,29 +16,19 @@ body {
     width: 30px;
 }
 
-.imgejemplo {
-    max-width: 30%;
-    max-height: 30%;
-    margin-bottom: 2%;
+#miLogo {
+    text-align: center;
+    width: 20%;
 }
 
 .accordion-body {
     margin-bottom: 2%;
 }
 
-#miLogo {
-    text-align: center;
-    width: 20%;
-}
-
-section {
-    text-align: center;
-}
-
-.texto {
-    text-align: justify;
-    margin-left: 5%;
-    margin-right: 5%;
+.imgejemplo {
+    max-width: 30%;
+    max-height: 30%;
+    margin-bottom: 2%;
 }
 
 .accordion {
