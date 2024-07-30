@@ -1,42 +1,84 @@
-.accordion-flush {
-    margin: 10%;
-    margin-top: 3%;
-    padding: 5%;
-}
-
-.copyright {
-    text-align: center;
-    text-transform: capitalize;
-    color: black;
-    text-emphasis: none;
-}
-
 body {
-    margin: 1%;
-    padding: 1%;
-    margin: 0%;
+    margin: 0px;
+    padding: 0px;
 }
 
 .navbar {
     margin-bottom: 10px;
 }
 
-.col-8 {
-    overflow: scroll;
+#miLogoMarca {
+    height: 30px;
+    width: 30px;
 }
 
-.col-3 {
-    position: static;
+.imgejemplo {
+    max-width: 30%;
+    max-height: 30%;
+    margin-bottom: 2%;
 }
 
-.row {
-    height: min-content
+.accordion-body {
+    margin-bottom: 2%;
 }
 
-main {
-    display: inline-block;
+#miLogo {
+    text-align: center;
+    width: 20%;
+}
+
+section {
+    text-align: center;
+}
+
+.texto {
+    text-align: justify;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.accordion {
+    justify-content: center;
+    --bs-accordion-active-color: black;
+    --bs-accordion-active-bg: darkgrey;
+    --bs-accordion-border-color: grey;
+    --bs-accordion-btn-focus-box-shadow: black;
+}
+
+#gift {
+    display: none;
+}
+
+#contenido {
+    font-size: x-large;
 }
 
 footer {
-    background-color: white;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.copyright {
+    text-align: center;
+    text-transform: capitalize;
+    color: white;
+    text-emphasis: none;
+}
+
+@media(min-width: 576px) {
+
+    #formulario {
+        width: 60%;
+        max-width: 600px;
+    }
+    .accordion {
+        padding: 0px 20% 10px 20%;
+    }
+    #contact {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+    
 }

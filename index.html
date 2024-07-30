@@ -5,157 +5,162 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./assets/css/screen.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>PORTAFOLIO WEB</title>
+    <script src="./assets/js/action.js"></script>
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark border-bottom border-body fixed-top"
-            data-bs-theme="dark"">
-        <div class=" container-fluid">
-            <a class="navbar-brand" href="#">Leonardo Aguilar R.</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">INICIO</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">GALERIA</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Dropdown
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-                    </li>
-                </ul>
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
-            </div>
-            </div>
-        </nav>
-    </header>
-    <br>
-    <br><br>
-    <main>
-        <div class="row">
-            <div class="col-3">
-                <div id="list-example" class="list-group">
-                    <a class="list-group-item list-group-item-action" href="#list-item-1">Item 1</a>
-                    <a class="list-group-item list-group-item-action" href="#list-item-2">Item 2</a>
-                    <a class="list-group-item list-group-item-action" href="#list-item-3">Item 3</a>
-                    <a class="list-group-item list-group-item-action" href="#list-item-4">Item 4</a>
+    <nav class="navbar fixed-top sticky-top bg-dark" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="./assets/img/Copia de logo.jpg" alt="miLogoMarca" id="miLogoMarca">  Leonardo Aguilar</a>
+        </div>
+    </nav>
+
+    <section id="about">
+
+        <img id="miLogo" src="./assets/img/Copia de logo.jpg" alt="Logo Leonardo Aguilar Fotografia Digital">
+        <h1>Acerca de mi</h1>
+        <hr>
+        <p class="texto">Fotografo Amateur sin estudios formales en fotografía, siempre motivado por capturar aquello
+            que a juicio del autor ¨Valga la pena congelar en el tiempo¨.</p>
+        <p class="texto">Radicado Actualmente en la ciudad de Santiago, en la actualidad tengo como objetivo el capturar
+            los lugares con atractivos inusuales que se encuentran aun por descubrir en la ciudad, siendo el principal
+            metodo de busqueda el salir a caminar sin rumbo fijo por diversos sectores de la ciudad.</p>
+        <p class="texto">Tambien, ademas del amor por la fotografía, vuelco mis pensamientos acerca de diversos temas en
+            un blog, en el cual basado en un concepto central, ya sea una serie de TV, una pelicula, un tema musical u
+            otros, hago reflexiones acerca de lo que estos temas traen a mi mente.</p>
+    </section>
+<hr>
+    <section id="work">
+        <h1>Áreas de Trabajo</h1>
+        <hr>
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        Paisajes
+                    </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Inspirado siempre por la naturaleza, el mayor enfoque en mi fotografia 
+                        es el paisajismo, siendo casi terapeutico, disfrutar de una salida a algun cerro, la playa, 
+                        la montaña, un lago, un rio, etc. Es en ambientes alejados del ruido de la ciudad, en completa 
+                        desconección, cuando más aflora la creatividad, y el deseo de expresarme a travez del lente de 
+                        mi cámara</div>
+                    <div class="image">
+                        <a href="./assets/img/VolcanLlaima.jpg" target="_blank"><img class="imgejemplo" src="./assets/img/VolcanLlaima.jpg" alt="Volcan Llaima"></a>
+                    </div>
                 </div>
             </div>
-            <div class="col-8">
-                <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true"
-                    class="scrollspy-example" tabindex="0">
-                    <h4 id="list-item-1">Antecedentes</h4>
-                    <!--<p>...</p>-->
-                    <div class="accordion accordion-flush" id="accordionFlushExample">
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#flush-collapseOne" aria-expanded="false"
-                                    aria-controls="flush-collapseOne">
-                                    Accordion Item #1
-                                </button>
-                            </h2>
-                            <div id="flush-collapseOne" class="accordion-collapse collapse"
-                                data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">Placeholder content for this accordion, which is intended to
-                                    demonstrate the <code>.accordion-flush</code> class. This is the first item's
-                                    accordion
-                                    body.</div>
-                            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        Flora
+                    </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Gran parte de las fotografias que me he dedica a hacer han sido
+                        protagonizadas por flores, arboles, arbustos y flora en general, encuentro gran belleza en la
+                        flora, en sus diseños y colores, ademas de que muchas de las flores tienen significados
+                        personales para cada uno de nosotros, ya sea por gustos, recuerdos, anhelos u otros sentimientos
+                        que nos evoquen</div>
+                        <div class="image">
+                            <a href="./assets/img/reflejos.jpg" target="_blank"><img class="imgejemplo" src="./assets/img/reflejos.jpg" alt="Volcan Llaima"></a>
                         </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#flush-collapseTwo" aria-expanded="false"
-                                    aria-controls="flush-collapseTwo">
-                                    Accordion Item #2
-                                </button>
-                            </h2>
-                            <div id="flush-collapseTwo" class="accordion-collapse collapse"
-                                data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">Placeholder content for this accordion, which is intended to
-                                    demonstrate the <code>.accordion-flush</code> class. This is the second item's
-                                    accordion
-                                    body. Let's imagine this being filled with some actual content.</div>
-                            </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                        Urbanismo
+                    </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Fotografias de Paisajes Urbanos, donde se mezcla la arquitectura,
+                        decoracion, interiorismo, vida urbana, integracion de la naturaleza dentro de la ciudad,
+                        parques, areas verdes, detalles arquitectonicos, tratando de retratarlos siempre con una mirada
+                        distinta, sacando a la luz aspectos que muchas veces pasan desapercividos por quienes pasan dia
+                        a dia junto a ellos.</div>
+                        <div class="image">
+                            <a href="./assets/img/ParqueForestal.jpg" target="_blank"><img class="imgejemplo" src="./assets/img/ParqueForestal.jpg" alt="Volcan Llaima"></a>
                         </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#flush-collapseThree" aria-expanded="false"
-                                    aria-controls="flush-collapseThree">
-                                    Accordion Item #3
-                                </button>
-                            </h2>
-                            <div id="flush-collapseThree" class="accordion-collapse collapse"
-                                data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">Placeholder content for this accordion, which is intended to
-                                    demonstrate the <code>.accordion-flush</code> class. This is the third item's
-                                    accordion
-                                    body. Nothing more exciting happening here in terms of content, but just filling up
-                                    the
-                                    space to make it look, at least at first glance, a bit more representative of how
-                                    this
-                                    would look in a real-world application.</div>
-                            </div>
-                        </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapsefour" aria-expanded="false" aria-controls="flush-collapseThree">
+                        RR:SS
+                    </button>
+                </h2>
+                <div id="flush-collapsefour" class="accordion-collapse collapse"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">desarrollo de Lineas Comerciales de fotografias para RR:SS, asesorando
+                        al/los cliente/s para desarrollar una "Linea Creativa" en torno a las fotografias, el contenido
+                        y conceptos a exponer como imagen de marca.
                     </div>
-                    <h4 id="list-item-2">Item 2</h4>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim commodi eaque, quas praesentium
-                        repellendus reprehenderit alias, totam eligendi tempore, impedit aliquid? Sunt nemo dolorum sint
-                        rerum tempore facere commodi atque!</p>
-                    <h4 id="list-item-3">Item 3</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet pariatur maiores ex temporibus
-                        facilis, minus culpa cumque, minima nesciunt porro ullam dolorem rem possimus quibusdam
-                        voluptatum
-                        voluptates? Necessitatibus, rem rerum.</p>
-                    <h4 id="list-item-4">Item 4</h4>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta, obcaecati expedita modi saepe
-                        suscipit deserunt magni minus dolore totam consequuntur quis vel a odio neque delectus laborum,
-                        maiores architecto incidunt!</p>
+                    <div class="image">
+                       <a href="./assets/img/yoga2.jpg" target="_blank"><img class="imgejemplo" src="./assets/img/yoga2.jpg" alt="Yoga PatagOmLila"></a>
+                    </div>
                 </div>
             </div>
         </div>
-    </main>
+    </section>
+<hr>
+
+    <section id="contact">
+        <div id="formulario">
+        <h1>Contacto</h1>
+        <form>
+            <div class="mb-3">
+                <label for="name" class="form-label">Nombre:</label>
+                <input type="text" class="form-control" id="name" aria-describedby="emailHelp">
+            </div>
+            <div class="mb-3">
+                <label for="phone" class="form-label">Telefono:</label>
+                <input type="text" class="form-control" id="phone" maxlength="9" placeholder="987654321" aria-describedby="emailHelp">
+            </div>
+            <div class="mb-3">
+                <label for="correo" class="form-label">Correo:</label>
+                <input type="email" class="form-control" id="correo">
+            </div>
+            <div class="mb-3">
+                <label for="Textarea1" class="form-label">Mensaje:</label>
+                <textarea class="form-control" id="Textarea1" rows="3"></textarea>
+            </div>
+
+            <button id="EnvioValidado" type="button" class="btn btn-primary">Enviar</button>
+        </form>
+        </div>
+    </section>
+    <br>
     <hr>
-    <footer class="fixed-bottom">
+    <section id="gift">
+        <p id="contenido"></p>
+        <a href="./assets/img/Fantasma.jpg" target="_blank"><img class="imgejemplo" src="./assets/img/Fantasma.jpg" alt="Fantasma"></a>
+        <a href="./assets/img/Fantasmas.jpg" target="_blank"><img class="imgejemplo" src="./assets/img/Fantasmas.jpg" alt="Fantasmas"></a>
+        <a href="./assets/img/FuegoEnElCielo.jpg" target="_self"><img class="imgejemplo" src="./assets/img/FuegoEnElCielo.jpg" alt="Fuego en el cielo"></a>
+        <a href="./assets/img/Gigantes.jpg" target="_self"><img class="imgejemplo" src="./assets/img/Gigantes.jpg" alt="Gigantes"></a>
+        <a href="./assets/img/Indiferencia.jpg" target="_blank"><img class="imgejemplo" src="./assets/img/Indiferencia.jpg" alt="Indiferencia"></a>
+        
+    </section>
+
+    <footer class="sticky-bottom">
         <div>
             <p class="copyright">
-                all rights reserved: Leonardo Aguilar Ramirez, 2024
+                all rights reserved &copy; Leonardo Aguilar Ramirez, 2024
+            </p>
+            <p>
+                Sitio Desarrollado por L.A.R.Tech S.p.A.
             </p>
         </div>
     </footer>
-
     <script src="./assets/js/bootstrap.bundle.min.js"></script>
-    <div class="position-fixed" aria-hidden="true">
-        <input type="text" tabindex="-1">
-    </div>
 </body>
 
 </html>
